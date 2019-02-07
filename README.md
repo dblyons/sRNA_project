@@ -9,7 +9,7 @@ trim_galore (which uses cutadapt)
 
 map with bowtie -v 1 -m 4 -S
 
-take sam output, convert to bam (samtools view -bS -h)
+convert sam to bam (samtools view -bS -h)
 
 then use the wrapper "unsort_srna_bam_to_bg_and_bw.sh" from the same directory you have the other 2 scripts
 (I know it's not pretty/elegant but works on my end, and at least serves as a beginning for us to harmonize our analysis)
