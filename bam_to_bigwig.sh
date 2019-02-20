@@ -12,7 +12,8 @@ echo
 echo 'converting to bigwig'
 echo
 
-bedGraphToBigWig tmp1.bg /old_home/dave/bsgenome_tair9.txt $3
+
+bedGraphToBigWig tmp1.bg ./bsgenome_tair9.txt $3
 
 echo 
 echo 'removing tmp files'
